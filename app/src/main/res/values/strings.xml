@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SMS Reading App</string>
+    <string name="img">img</string>
+    <string name="add">Add contact</string>
+    <string name="select_contact_to_send_sms">Select contact to send SMS</string>
+    <string name="empty" />
+    <string name="contact_name">Contact Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="send_custom_message">Send Custom Message</string>
+    <string name="enter_custom_message">Enter Custom Message</string>
+    <string name="redirect_sms_to">Redirect SMS To</string>
+    <string name="instructions_to_use_app"><b><u>Instructions to use this App</u></b></string>
+    <string name="instruction_view"><p>1. Give permissions to access <b>SMS</b> and <b>Contact</b>.\n2. Press <b>Add Contact Button</b> to add contact from phone.\n3. Select contact from whom you want to receive and send message.\n4. Now Press <b>Done Button</b>.</p></string>
+    <string name="what_application_dose"><b><u>What application Dose:</u></b></string>
+    <string name="description"><p>This Application allow user to receive and send message to contact which are select. This service runs Automatically. Messages are received and read only if it belongs to selected contact. And it forward messages automatically to selected contact only. Thus making user work easier.</p></string>
+    <string name="done">Done</string>
+    <string name="add_contact_to_start_sms_service">Add Contact to start SMS service</string>
+    <string name="start_service">Start Service</string>
+    <string name="search_contact">Search Contact</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5"
+    tools:context=".DisplayAppInfo">
+
+    <TextView
+        android:id="@+id/tv_bio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:text="@string/what_application_dose"/>
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_bio"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="18sp"
+        android:text="@string/description"/>
+
+    <TextView
+        android:id="@+id/tv_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_description"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:text="@string/instructions_to_use_app"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_head"
+        android:layout_marginTop="10dp"
+        android:text="@string/instruction_view"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="18sp" />
+
+</RelativeLayout>
